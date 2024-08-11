@@ -4,7 +4,7 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex">
         <p
           className="flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Вітаємо сайті паблік клану BB
+          Ласкаво Просимо у сім'ю!
         </p>
       </div>
 
@@ -18,19 +18,18 @@ export default function Home() {
               <h1 className="cursor-pointer font-normal text-[#060607] dark:text-white">Discord</h1>
             </div>
           </div>
-          <a target="_blank" rel="noopener noreferrer" className="cursor-pointer focus-visible:ring-ring ring-offset-background inline-flex h-10 items-center justify-center rounded-md bg-[#248046] px-4 py-2 text-sm font-medium text-[#e9ffec] transition-colors hover:bg-[#1a6334] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50" href="https://discord.gg/ajxW3jEjjD">
+          <a target="_blank" rel="noopener noreferrer" className="cursor-pointer focus-visible:ring-ring ring-offset-background inline-flex h-10 items-center justify-center rounded-md bg-[#248046] px-4 py-2 text-sm font-medium text-[#e9ffec] transition-colors hover:bg-[#1a6334] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+             href="https://discord.gg/WRK9gcFq7n">
             Приєднатись
           </a>
         </div>
       </div>
 
       <div className="z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex">
-        <p
-          className="flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Ми не ті самі токсичні клани, які ви звикли бачити. <br/>
-          Ми віримо в дружбу, взаємопідтримку та взаємоповагу. <br/>
-          Ласкаво Просимо у сім'ю!
-        </p>
+        {/*<p*/}
+        {/*  className="flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">*/}
+        {/*  Ласкаво Просимо у сім'ю!*/}
+        {/*</p>*/}
       </div>
     </main>
   );
